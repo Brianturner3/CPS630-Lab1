@@ -1,0 +1,47 @@
+$dusty-red : #994636;
+$dusty-blue: #88958D;
+$dusty-tan : #DBD8AE;
+$white: #ffffff;
+$dusty-green: #ADAA91;
+$tearose : #E5C1BD;
+$cambridgeblue: #96BBBB;
+$rosequartz : #A790A5;
+$dreysgray: #564E58;
+
+#pg_CoverOther{
+	background-image : url("/StockPhotos/briannow5-header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;}
+#id30{
+	background: $tearose;
+}
+#id31{
+	background: $cambridgeblue;
+}
+#id32{
+	background: $rosequartz;
+}
+#id33{
+	background:$dreysgray;
+}
+.question_label{
+	position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 2.5em;
+    color: white;
+}
+.answer_container{
+	position: absolute;
+    top: 62%;
+    left: 5%;
+    color: white;
+}
+div.answer_container a:visited,
+div.answer_container a:active,
+div.answer_container a:focus{
+	color: white;
+}
+div.answer_container a:hover{
+	color: #d3d3d3;
+}

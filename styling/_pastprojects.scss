@@ -1,0 +1,104 @@
+$dusty-red : #994636;
+$dusty-blue: #88958D;
+$dusty-tan : #DBD8AE;
+$white: #ffffff;
+$dusty-green: #ADAA91;
+
+.btn,a,.btn:hover,a:hover {
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out; 
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+outline: none !important;
+}
+.btn-default{border:none;border-radius: 0;background: #5E9A18 !important;color:#fff !important;font-size: 0.85em;padding:0.5em 1em;}
+.btn-default:hover{background: #487712 !important;padding:0.5em 2em; }
+
+#pg_CoverPast{
+	background-image : url("/StockPhotos/technow2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;}
+	.photo_container{
+	position:relative;
+}
+.photo_overlay{
+  vertical-align: top;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: orange;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+.mobile_photo_label{
+	color:white;
+  font-size:1.2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.hover_label{
+  display: block;
+}
+.hover_label_link:visited{
+  color:white;
+}
+#MoreInfoLabel{
+  font-size: 2em;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+h3#MoreInfoLabel a:visited,
+h3#MoreInfoLabel a:hover,
+h3#MoreInfoLabel a:visited,
+h3#MoreInfoLabel a:active {
+  color: white;
+  text-decoration: none;
+} 
+#home_icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+  height: 18vh;
+  width: 18vw;
+}

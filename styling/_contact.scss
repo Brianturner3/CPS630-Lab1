@@ -1,0 +1,31 @@
+$dusty-red : #994636;
+$dusty-blue: #88958D;
+$dusty-tan : #DBD8AE;
+$white: #ffffff;
+$dusty-green: #ADAA91;
+$roman-silver : #84828F;
+$old-lavender : #6A687A;
+$black-coral: #536271;
+$outer-space: #3E4C5E;
+$british-racing-green: #005024;
+
+#pg_CoverFut{
+	background-image : url("/StockPhotos/briannow-header.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;}
+#id18{
+	background: $roman-silver;
+	position: relative;
+}
+#id19{
+	background: $old-lavender;
+	position: relative;
+}
+#id20{
+	background: $outer-space;
+	position: relative;
+}
+#id21{
+	background: $black-coral;
+	position: relative;
+}

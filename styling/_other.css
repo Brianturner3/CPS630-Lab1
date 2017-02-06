@@ -1,0 +1,39 @@
+#pg_CoverOther {
+  background-image: url("/StockPhotos/briannow5-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#id30 {
+  background: #E5C1BD; }
+
+#id31 {
+  background: #96BBBB; }
+
+#id32 {
+  background: #A790A5; }
+
+#id33 {
+  background: #564E58; }
+
+.question_label {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  font-size: 2.5em;
+  color: white; }
+
+.answer_container {
+  position: absolute;
+  top: 62%;
+  left: 5%;
+  color: white; }
+
+div.answer_container a:visited,
+div.answer_container a:active,
+div.answer_container a:focus {
+  color: white; }
+
+div.answer_container a:hover {
+  color: #d3d3d3; }
+
+/*# sourceMappingURL=_other.css.map */
